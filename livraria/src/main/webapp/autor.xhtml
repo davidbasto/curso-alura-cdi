@@ -21,7 +21,7 @@
 			<h:form id="autor">
 				<p:fieldset legend="Dados do Autor">
 					<h:panelGrid columns="3">
-
+						<h:inputHidden value="#{autorBean.autor.id}" />
 						<p:outputLabel value="Nome:" for="nome" />
 						<p:inputText id="nome" value="#{autorBean.autor.nome}"
 							required="true">
