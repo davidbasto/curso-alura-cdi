@@ -20,10 +20,10 @@ public class VendasBean implements Serializable{
 
 
 	private static final long serialVersionUID = 1L;
-	private DAO<Livro> livroDao;
+	private DAO<Livro, Integer> livroDao;
 
 	@Inject
-	public VendasBean(DAO<Livro> livroDao){
+	public VendasBean(DAO<Livro, Integer> livroDao){
 		this.livroDao = livroDao;
 	}
 	

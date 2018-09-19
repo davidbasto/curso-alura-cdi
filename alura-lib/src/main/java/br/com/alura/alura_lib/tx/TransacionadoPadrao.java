@@ -6,7 +6,7 @@ import javax.interceptor.InvocationContext;
 import javax.persistence.EntityManager;
 
 @Typed(Transacionado.class)
-public class TransacionadoPadrao implements Transacionado{
+public class TransacionadoPadrao implements Transacionado {
 
 	private static final long serialVersionUID = -6107081772273959401L;
 	

@@ -20,10 +20,10 @@ public class AutorBean implements Serializable{
 	
 	private Integer autorId;
 
-	private DAO<Autor> autorDao;
+	private DAO<Autor, Integer> autorDao;
 
 	@Inject
-	public AutorBean(DAO<Autor> autorDao){
+	public AutorBean(DAO<Autor, Integer> autorDao){
 		this.autorDao = autorDao;
 	}
 	
